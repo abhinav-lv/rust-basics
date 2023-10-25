@@ -1,0 +1,8 @@
+[package]
+name = "rough"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tinyrand = "0.5.0"
+tinyrand-std = "0.5.0"
