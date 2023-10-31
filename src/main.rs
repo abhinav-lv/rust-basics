@@ -9,10 +9,10 @@
 // mod exercise_chapter_3;
 // mod structs;
 // mod enums;
-mod collection;
+// mod collection;
+mod error_handling;
 
 fn main() {
-    
     // rough::rough();
 
     // 1
@@ -29,7 +29,7 @@ fn main() {
 
     // 5
     // conditionals::conditionals();
- 
+
     // 6
     // ownership::ownership();
 
@@ -45,7 +45,9 @@ fn main() {
     // 10
     // collection::vectors();
     // collection::strings();
-    collection::maps();
+    // collection::maps();
 
-
+    // 11
+    // error_handling::error_handling();
+    error_handling::propagate_errors();
 }
